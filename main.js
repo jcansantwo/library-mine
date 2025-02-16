@@ -15,4 +15,4 @@ function tail() {
     }
 }
 
-assertequal(tail([1,2,3][0]),2);
+assertequal(tail([1,2,3])[0],2);
