@@ -2,4 +2,8 @@ function assertequal(actual,expected) {
     console.assert(actual,expected);
 }
 
-assertequal(1,1);
+function head(list) {
+    return (list[0]);
+}
+
+assertequal(head([1,2,3]),1);
